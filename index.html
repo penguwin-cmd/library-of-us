@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>The Library of Us</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+
+    <div id="loading-screen">
+
+        <div class="loader"></div>
+
+        <p class="loading-text">
+
+            📖 Opening The Library...
+
+        </p>
+
+    </div>
+
+
+
+    <!-- Morning Sky -->
+
+    <section id="intro">
+
+        <div id="background">
+
+            <div class="sky"></div>
+
+            <div class="sun"></div>
+
+            <div class="cloud cloud-one"></div>
+
+            <div class="cloud cloud-two"></div>
+
+            <div class="cloud cloud-three"></div>
+
+            <div class="particles"></div>
+
+        </div>
+
+
+
+        <div class="intro-content">
+
+            <p class="intro-line">
+
+                Every love story deserves
+                a place to be remembered.
+
+            </p>
+
+            <h1>
+
+                The Library of Us
+
+            </h1>
+
+            <p class="intro-description">
+
+                A place where every page keeps a memory,
+                every chapter keeps a smile,
+                and every year writes another page of our story.
+
+            </p>
+
+            <p class="greeting">
+
+                Haii love. 💙
+
+            </p>
+
+            <button id="begin-story">
+
+                📖 Begin Our Story
+
+            </button>
+
+        </div>
+
+    </section>
+        <!-- Sunset Transition -->
+
+    <section id="transition-scene">
+
+        <div class="sunset-overlay"></div>
+
+        <div class="transition-content">
+
+            <h2>
+
+                Every chapter begins
+                with a single page.
+
+            </h2>
+
+            <p>
+
+                Let's open ours together.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Library Door -->
+
+    <section id="door-scene">
+
+        <div class="door-container">
+
+            <div id="library-door">
+
+                <div class="door-panel"></div>
+
+                <div class="door-knob"></div>
+
+            </div>
+
+            <h2>
+
+                The Library is waiting...
+
+            </h2>
+
+            <p>
+
+                Behind this door are the memories
+                we've written together.
+
+            </p>
+
+            <button id="enter-library">
+
+                🚪 Enter the Library
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Library -->
+
+    <main id="library">
+
+    <div class="library-room">
+
+        <div class="library-dust">
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <!-- Window -->
+
+            <!-- Fireplace -->
+
+<div class="fireplace">
+
+    <div class="fire"></div>
+
+</div>
+           <!-- Grandfather Clock -->
+
+<div class="grand-clock">
+
+    <div class="clock-face">
+
+    <span class="num n12">12</span>
+    <span class="num n3">3</span>
+    <span class="num n6">6</span>
+    <span class="num n9">9</span>
+
+    <div class="hour-hand"></div>
+    <div class="minute-hand"></div>
+
+</div>
+
+    <div class="pendulum">
+        <div class="pendulum-ball"></div>
+    </div>
+
+</div>
+            <!-- Sunflowers -->
+
+            <div class="sunflower-vase">
+
+                🌻
+
+            </div>
+
+
+
+            <!-- Bookshelf -->
+
+            <div class="bookshelf">
+
+                <h2>
+
+                    Our Story
+
+                </h2>
+                                <!-- Prologue -->
+
+                <div class="book available"
+                     data-book="prologue">
+
+                    <div class="book-cover">
+
+                        <span class="book-icon">📖</span>
+
+                        <h3>Prologue</h3>
+
+                        <p>
+                            Every story has a beginning.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- 11th Monthsary -->
+
+                <div class="book available"
+                     data-book="monthsary11">
+
+                    <div class="book-cover">
+
+                        <span class="book-icon">🌻</span>
+
+                        <h3>11th Monthsary</h3>
+
+                        <p>
+                            One more chapter,
+                            one more memory.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Anniversary -->
+
+            <!-- Anniversary -->
+
+<div class="book locked"
+     data-book="anniversary">
+
+    <div class="book-cover">
+
+        <span class="book-icon">❤️</span>
+
+        <h3>1st Anniversary</h3>
+
+        <p>
+            One year. One story. Us. ❤️
+        </p>
+
+    </div>
+
+</div>
+            <script>
+window.addEventListener("load", () => {
+    localStorage.setItem("monthsary11Unlocked", "false");
+});
+</script>
+            <!-- Library Message -->
+
+            <div class="library-message">
+
+                <h2>
+
+                    Every memory deserves
+                    its own place.
+
+                </h2>
+
+                <p>
+
+                    This library will grow with us.
+                    Every monthsary,
+                    every anniversary,
+                    every adventure,
+                    every laugh,
+                    every dream.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- Book Viewer -->
+
+    <section id="book-viewer">
+
+        <div class="book-window">
+
+            <button id="close-book">
+
+                ✕
+
+            </button>
+
+            <iframe
+                id="chapter-frame"
+                title="Book Chapter"
+                loading="lazy">
+
+            </iframe>
+
+        </div>
+
+    </section>
+        <!-- Audio -->
+
+    <audio id="bg-music" loop preload="auto">
+        <source src="assets/music/glue.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="page-flip" preload="auto">
+        <source src="assets/music/page-flip.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="door-open" preload="auto">
+        <source src="assets/music/door-open.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="fireplace-audio" loop preload="auto">
+        <source src="assets/music/fireplace.mp3" type="audio/mpeg">
+    </audio>
+
+
+
+    <!-- Screen Fade -->
+
+    <div id="screen-fade"></div>
+
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+
+            Built with love,
+            one memory at a time.
+            💙
+
+        </p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
